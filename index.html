@@ -5,8 +5,9 @@
 <html>
   <script> 
   setproperty(yourballs,blownup,true)
-    const uselessbutton = document.querySelector('#useless');
+    var uselessbutton = document.getElementById("useless");
     uselessbutton.addEventListener('click', function() {
+      setproperty(uselessbutton,"Text","ok")
         console.log('Button clicked!');
         open("https://www.google.com")
     });
