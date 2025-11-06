@@ -57,19 +57,19 @@
   </i>
   </div>
 <p>More coming soon....</p>
-<button id="useless">useless button</button>
+<button id="useless" onclick="stupidlol">useless button</button>
 </center>
 </body>
   <script> 
   //setproperty(yourballs,blownup,true)
     var uselessbutton = document.getElementById("useless");
-    uselessbutton.addEventListener('click', function() {
+    function stupidlol() {
       setproperty(uselessbutton,"Text","ok")
         console.log('Button clicked!');
         open("https://www.google.com")
         uselessbutton.innerText = "not so useless"
         uselessbutton.style.backgroundColor = 'red'
-    });
+    };
   console.log("sorry about the balls man")
   </script>
 </html>
