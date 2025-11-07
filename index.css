@@ -28,8 +28,8 @@ marquee{
 }
 .list{
   background-image: url('cobblecastletop.png'), url('cobblecastle.png');
-  background-position: 0px 0px, 0px 200px; /* Adjust positions based on image heights */
-  background-repeat: no-repeat; /* Prevents images from repeating */
+  background-position: 0px 0px, 0px 256px; /* Adjust positions based on image heights */
+  background-repeat: repeat-x, repeat; /* Prevents images from repeating */
   /* Other styles for the element, e.g., height, width, etc. */
   height: 300px; /* Example height to accommodate the images */
   width: 100%;
