@@ -26,10 +26,14 @@ marquee{
 .info{
     background-image: url(cobblemossyback.png);
 }
+.castletop{
+  background-image: url("cobblecastletop.png);
+  height: 265px;
+}
 .list{
-  background-image: url('cobblecastletop.png'), url('cobblecastle.png');
-  background-position: 0px 0px, 0px 256px; /* Adjust positions based on image heights */
-  background-repeat: repeat-x, repeat-x; /* Prevents images from repeating */
+  background-image: url('cobblecastle.png');
+  /*background-position: 0px 0px, 0px 256px; Adjust positions based on image heights 
+  background-repeat: repeat-x, repeat-x;  Prevents images from repeating */
   /* Other styles for the element, e.g., height, width, etc. *//*
   height: 300px;  Example height to accommodate the images 
   width: 100%;
