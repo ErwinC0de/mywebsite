@@ -27,5 +27,6 @@ marquee{
     background-image: url(cobblemossyback.png);
 }
 .list{
-  background-image: url(cobbleback.png);
+  background-image: url(cobblecastletop.png),url(cobblecastle.png);
+  background-size: 256px auto, auto auto
 }
